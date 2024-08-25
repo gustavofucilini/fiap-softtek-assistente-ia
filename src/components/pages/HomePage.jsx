@@ -1,6 +1,7 @@
 import React from "react";
 import "../../scss/HomePage.scss";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { NavLink } from 'react-router-dom';
 import ChatBotImg from "../../assets/ChatBot.png";
 
 function HomePage() {
@@ -18,6 +19,7 @@ function HomePage() {
                 utiliza IA para oferecer suporte técnico rápido e eficaz,
                 permitindo que sua equipe se concentre no que realmente importa.
               </p>
+              <Button as={NavLink} to="/about" size="lg">Sobre o projeto</Button>
             </Col>
             <Col md={6}>
               <img src={ChatBotImg} alt="Illustration" className="img-fluid" />
@@ -57,7 +59,7 @@ function HomePage() {
                 <div className="embed-responsive embed-responsive-16by9">
                   <iframe
                     className="embed-responsive-item"
-                    src="https://www.youtube.com/embed/vp1"
+                    src="https://www.youtube.com/embed/z3qSoQZop8o?si=h3x7Vg6zK79E5XIq"
                     title="VP1"
                     allowFullScreen
                   ></iframe>

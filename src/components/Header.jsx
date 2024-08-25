@@ -20,19 +20,19 @@ function Header() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link as={NavLink} to="/" exact activeClassName="active">
+          <Nav.Link as={NavLink} to="/">
             Início
           </Nav.Link>
-          <Nav.Link as={NavLink} to="/about" activeClassName="active">
+          <Nav.Link as={NavLink} to="/about">
             Sobre
           </Nav.Link>
-          <Nav.Link as={NavLink} to="/history" activeClassName="active">
+          <Nav.Link as={NavLink} to="/history">
             Histórico
           </Nav.Link>
-          <Nav.Link as={NavLink} to="/assistant" activeClassName="active">
+          <Nav.Link as={NavLink} to="/assistant">
             Assistente
           </Nav.Link>
-          <Nav.Link as={NavLink} to="/contact" activeClassName="active">
+          <Nav.Link as={NavLink} to="/contact">
             Contato
           </Nav.Link>
         </Nav>
