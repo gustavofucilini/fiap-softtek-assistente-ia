@@ -1,0 +1,17 @@
+// custom.scss
+
+// Importar funções do Bootstrap (necessárias para variáveis)
+@import 'bootstrap/scss/functions';
+
+// Sobrescreva as variáveis aqui, antes de importar qualquer coisa do Bootstrap
+$primary: #3498db;   // Azul principal
+$secondary: #5556b2; // Azul secundário
+$success: #2ecc71;   // Verde para sucesso
+$info: #3498db;      // Azul para informações (igual ao primary)
+$warning: #f39c12;   // Laranja para alertas
+$danger: #c32767;    // Rosa-avermelhado para erros
+$light: #f3f3f3;     // Cinza claro para fundos/bordas
+$dark: #040716;      // Quase preto para textos/fundos escuros
+
+// Agora importe o Bootstrap para aplicar as variáveis
+@import 'bootstrap/scss/bootstrap';

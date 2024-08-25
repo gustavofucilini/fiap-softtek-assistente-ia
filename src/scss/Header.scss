@@ -1,0 +1,23 @@
+@import "custom.scss";
+
+.navbar {
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 125px;
+      height: 125px;
+      margin-right: 10px;
+    }
+  }
+
+  .nav-link {
+    color: #fff;
+    font-size: large;
+    &.active {
+      color: $danger!important; // Cor de destaque para o link ativo
+      font-weight: bold;
+    }
+  }
+}
