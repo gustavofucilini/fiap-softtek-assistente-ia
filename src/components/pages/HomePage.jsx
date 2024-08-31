@@ -56,6 +56,7 @@ function HomePage() {
             <Col md={6} className="mb-4">
               <div className="video-card">
                 <h3 className="video-title">Primeiro Vídeo de Apresentação</h3>
+                  <a href="https://www.youtube.com/embed/z3qSoQZop8o?si=h3x7Vg6zK79E5XIq">Link Video Pitch Um</a>
                 <div className="embed-responsive embed-responsive-16by9">
                   <iframe
                     className="embed-responsive-item"
@@ -69,10 +70,11 @@ function HomePage() {
             <Col md={6} className="mb-4">
               <div className="video-card">
                 <h3 className="video-title">Segundo Vídeo de Apresentação</h3>
+                  <a href="https://www.youtube.com/embed/FCxM3BJKnb8?si=nW9W38KzVnrlIbO4">Link Video Pitch Dois</a>
                 <div className="embed-responsive embed-responsive-16by9">
                   <iframe
                     className="embed-responsive-item"
-                    src="https://www.youtube.com/embed/vp2"
+                    src="https://www.youtube.com/embed/FCxM3BJKnb8?si=nW9W38KzVnrlIbO4"
                     title="VP2"
                     allowFullScreen
                   ></iframe>
